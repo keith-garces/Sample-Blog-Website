@@ -1,0 +1,124 @@
+html {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.introduction {
+    background-size: cover;
+    height: 100vh;
+    padding-top: 70px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: radial-gradient(
+      ellipse at 50% 50%,
+      #00bcd4 0%,
+      #ee82ee 100%
+    )
+    ;
+    
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    margin: 10px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+
+p.profession {
+    font-size: 30px; 
+    color: white;
+}
+
+p.about {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;  
+}
+
+a:hover {
+    color: papayawhip
+}
+
+a:visited {
+    color: pink;
+  }  
+
+.image {
+    height: 600px; 
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+    margin-left: 60px; 
+    margin-right: 60px; 
+    float: left;
+}
+
+.bio {
+     height: 100vh auto;
+     padding: 100px;
+     background: #0f0e17;
+     font-family: 'Source Code Pro',monospace;
+}
+
+.bio h1 {
+    color: #fffffe;
+    font-family: 'Source Code Pro',monospace;
+}
+
+.summary {
+    line-height: 2;
+    font-size: 20px;
+    color: #fffffe;
+}
+
+p.contact {
+    font-size: 20px;
+    color: #fffffe;
+}
+
+a {
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+}
+
+div.footer {
+    height: auto;
+    background-color: #e53170;
+}
+
+h1.footer {
+    color: white;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #ff8906;
+    bottom: 50px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    transition: ease-in-out 1.3s;
+    border-radius: 10px;
+}
+
+.gotopbtn:hover {
+    transform: scale(1.2);
+}
